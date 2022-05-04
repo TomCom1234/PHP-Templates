@@ -67,6 +67,4 @@ $w->addPdf(__DIR__ . '/pdfs/PDF_FILE_NAME_HERE.pdf'); /* CHANGE THIS TO POINT TO
 //An Output
     $w->add('Hello, World', [100, 100, 10, 7]); /* html, [x, y, w, h] */
 
-//This is going to go into GitHub
-
-//This is going back to our local system
+//COMMENT HERE 
