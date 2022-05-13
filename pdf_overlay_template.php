@@ -1,9 +1,9 @@
 <?php
 
 /*
- * Template Name: 
+ * Template Name:
  * Version: 1.0
- * Description: 
+ * Description:
  * Author:
  * Author URI:
  * Group: 1. Development
@@ -57,15 +57,14 @@ $w->endStyles();
  */
 $w->addPdf(__DIR__ . '/pdfs/PDF_FILE_NAME_HERE.pdf'); /* CHANGE THIS TO POINT TO YOUR PDF */
 
-
 /* -------------------------------------------------------------------------------------------- */
 /* LOAD: Page 1  */
-    $w->addPage(1);
+$w->addPage(1);
 
 /* OUTPUT */
 
 //An Output
-    $w->add('Hello, World', [100, 100, 10, 7]); /* html, [x, y, w, h] */
+$w->add('Hello, World', [100, 100, 10, 7]); /* html, [x, y, w, h] */
 
-//COMMENT HERE 
-
+// COMMENT HERE
+// Andre was here
